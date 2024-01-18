@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: ghcr.io/gihyodocker/simple-nginx-proxy:v0.0.1
+        image: ghcr.io/gihyodocker/simple-nginx-proxy:v0.1.0
         env:
         - name: NGINX_PORT
           value: "80"
@@ -32,4 +32,4 @@ spec:
         - name: http
           containerPort: 80
       - name: echo
-        image: ghcr.io/gihyodocker/echo:v0.0.1-7-gb8e20c2-slim
+        image: ghcr.io/gihyodocker/echo:v0.1.0-slim
